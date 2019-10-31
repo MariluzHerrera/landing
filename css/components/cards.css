@@ -1,0 +1,50 @@
+.card-container {
+  height: 400px;
+  justify-content: center;
+}
+
+.card-container h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 0 0 20px 0;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.card1 img, .card2 img {
+  width: 150px;
+  height: 120px;
+  border-radius: 30px;
+  padding: 10px 0 10px 0
+}
+
+.card3 img {
+  width: 120px;
+  height: 150px;
+  border-radius: 30px;
+  padding: 10px 0 10px 0;
+}
+
+.card1, .card2, .card3 {
+  height: 300px;
+  width: 350px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  background-size: cover;
+  border-radius: 5%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.1)
+}
+
+.card1 p, .card2 p, .card3 p {
+  color: #637186;
+  font-size: 15px;
+  padding: 5px 15px;
+}
+
